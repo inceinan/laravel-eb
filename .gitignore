@@ -1,0 +1,17 @@
+# Editors
+/.idea
+
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+
+# Our ignores
+/.ebextensions/options.config
+/web
+
+/server_env/deploykeys/*
+!/server_env/deploykeys/.gitkeep
+!/server_env/deploykeys/config
