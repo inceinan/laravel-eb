@@ -10,7 +10,7 @@
 
 # Our ignores
 /.ebextensions/options.config
-/web
+#/web
 
 /server_env/deploykeys/*
 !/server_env/deploykeys/.gitkeep
